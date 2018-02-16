@@ -12,6 +12,7 @@ function distanceFromHqInBlocks(location){
 }
 function distanceFromHqInFeet(location){
   distanceFromHqInBlocks() * 264
+  binding.pry 
 }
 function distanceTravelledInFeet(startblock,endblock){
   distance= (endblock- startblock)*264
