@@ -1,13 +1,14 @@
 // Code your solution in this file!
+require 'pry '
 function distanceFromHqInBlocks(location){
   distance= 42 - location
   if (42 > location) {
     return distance
   }
   else {
-    return distance * -1 
+    return distance * -1
   }
-  
+
 }
 function distanceFromHqInFeet(location){
   distanceFromHqInBlocks() * 264
