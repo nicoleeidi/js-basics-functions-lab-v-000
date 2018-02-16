@@ -24,7 +24,8 @@ function distanceTravelledInFeet(startblock,endblock){
   }
 }
 function calculatesFarePrice(startblock,endblock){
-  distance= endblock- startblock
+  distance= (endblock- startblock)*264
+  
   if (distance <= 400) {
     return 0
   }
