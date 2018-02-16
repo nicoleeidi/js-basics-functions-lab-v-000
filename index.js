@@ -11,7 +11,7 @@ function distanceFromHqInBlocks(location){
 
 }
 function distanceFromHqInFeet(location){
-  distanceFromHqInBlocks() * 264
+  distanceFromHqInBlocks(location) * 264
   debugger 
 }
 function distanceTravelledInFeet(startblock,endblock){
