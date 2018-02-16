@@ -12,7 +12,7 @@ function distanceFromHqInBlocks(location){
 }
 function distanceFromHqInFeet(location){
   distanceFromHqInBlocks(location) * 264
-  
+
 }
 function distanceTravelledInFeet(startblock,endblock){
   distance= (endblock- startblock)*264
@@ -29,10 +29,10 @@ function calculatesFarePrice(startblock,endblock){
     return 0
   }
   else if (distance > 400 && distance <= 2000) {
-      return distance * 2
+      return distance * .02
   }
   else if (distance > 2000 && distance <= 2500){
-    return 2 * 2500
+    return .02 * 2500
   }
   else if (distance > 2500) {
     return 'cannot travel that far'
