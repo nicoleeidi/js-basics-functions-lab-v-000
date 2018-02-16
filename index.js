@@ -1,7 +1,13 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(location){
   distance= 42 - location
-  return distance
+  if (42 > location) {
+    return distance
+  }
+  else {
+    return distance * -1 
+  }
+  
 }
 function distanceFromHqInFeet(location){
   distanceFromHqInBlocks() * 264
