@@ -1,5 +1,5 @@
 // Code your solution in this file!
-require 'pry'
+
 function distanceFromHqInBlocks(location){
   distance= 42 - location
   if (42 > location) {
@@ -12,7 +12,7 @@ function distanceFromHqInBlocks(location){
 }
 function distanceFromHqInFeet(location){
   distanceFromHqInBlocks() * 264
-  binding.pry 
+  debugger 
 }
 function distanceTravelledInFeet(startblock,endblock){
   distance= (endblock- startblock)*264
