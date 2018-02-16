@@ -1,5 +1,5 @@
 // Code your solution in this file!
-require 'pry '
+require 'pry'
 function distanceFromHqInBlocks(location){
   distance= 42 - location
   if (42 > location) {
